@@ -22,11 +22,12 @@ By default, everything would activate and load on device startup.
 ## 🛠️ Configuration
 > The main folder is located at `%appdata%\Rainmeter\JaxCore\InstalledModules\IdleWebview`. 
 
-After installation, it will show a `.inc` file where you can edit the settings. Idlewebview is also automatically activated and can be activated via `Win + K` or the default `5m` idle duration.
-After editing, click on the `Refresh.lnk` file in the main folder to apply the settings.
-The style folder can be found at `%appdata%\Rainmeter\JaxCore\InstalledModules\IdleWebview\Launch\Styles\<style_name>`, however you can change the `URL` to anything, local or external.
-
-For Javascript, it's intended to be able to retrieve measure information from the Rainmeter interface, however it seems to be broken right now. Hopefully it would be fixed soon.
+> The config file is located at `%appdata%\Rainmeter\JaxCore\InstalledModules\IdleWebview\@Resources\Vars.inc`. 
+* After installation, it will show a `.inc` file where you can edit the settings. 
+* Idle Webview is also automatically activated and can be activated via `Win + K` or the default `5m` idle duration. These can all be changed in the settings.
+* After editing the settings, click on the `Refresh.lnk` file in the main folder to apply the settings.
+* The style folder can be found at `%appdata%\Rainmeter\JaxCore\InstalledModules\IdleWebview\Launch\Styles\<style_name>`, however you can change the `URL` to anything, local or external.
+* 🐛F or Javascript, it's intended to be able to retrieve measure information from the Rainmeter interface, however it seems to be broken right now. Hopefully it would be fixed soon.
 
 ## Contribution
 Wether or not you're a seasoned web-dev or you're new to this, feel free to create a custom style and create a pull request! 
