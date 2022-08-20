@@ -11,7 +11,7 @@ function updateClock() {
   var today = new Date();
   var date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
   var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
-  document.getElementById('details').innerHTML = 'IDLESTYLE v2\n============\nIdletime: null\nTime: '+time+'\nDate: '+date;
+  document.getElementById('details').innerHTML = 'IdleWebview v1 // Default style\n============\nIdletime: null\nTime: '+time+'\nDate: '+date;
 
   // call this function again in 1000ms
   setTimeout(updateClock, 1000);
@@ -25,7 +25,7 @@ window.onload = function() {
       const transition_el = transition_els[i];
       transition_el.classList.add('is-active');
     }
-  }, 1000);
+  }, 500);
   updateClock(); // initial call
 }
 

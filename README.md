@@ -1,11 +1,11 @@
 <!-- START Header.mustache -->
 <br />
 <div align="center">
-  <a href="https://github.com/Jax-Core/IdleStyle">
-    <img src="https://raw.githubusercontent.com/Jax-Core/ReadME-Template/main/Resources/Icons/IdleStyle.png" alt="Logo" width="180" height="180">
+  <a href="https://github.com/Jax-Core/IdleWebview">
+    <img src="https://raw.githubusercontent.com/Jax-Core/ReadME-Template/main/Resources/Icons/IdleWebview.png" alt="Logo" width="180" height="180">
   </a>
 
-<h3 align="center">IdleStyle</h3>
+<h3 align="center">IdleWebview</h3>
   <p align="center">
     Stylized screensavers
     <br />
@@ -16,19 +16,19 @@
 <!-- END Header.mustache -->
 <!-- START ShieldsBasic.mustache -->
 <p align="center">
-  <img alt="Latest by date" src="https://img.shields.io/github/v/tag/Jax-Core/IdleStyle?label=Version&style=for-the-badge" />
+  <img alt="Latest by date" src="https://img.shields.io/github/v/tag/Jax-Core/IdleWebview?label=Version&style=for-the-badge" />
   <img alt="Discord" src="https://img.shields.io/discord/880445067754610688?label=Discord%20server&style=for-the-badge" />
-  <img alt="Github" src="https://img.shields.io/github/license/Jax-Core/IdleStyle?style=for-the-badge" />
+  <img alt="Github" src="https://img.shields.io/github/license/Jax-Core/IdleWebview?style=for-the-badge" />
 </p><!-- END ShieldsBasic.mustache -->
 
 <!-- START About.mustache -->
 
 ## About
 
-![IdleStyle](https://raw.githubusercontent.com/Jax-Core/ReadME-Template/main/Resources/Splash/IdleStyle.png)
+![IdleWebview](https://raw.githubusercontent.com/Jax-Core/ReadME-Template/main/Resources/Splash/IdleWebview.png)
 
 <!-- END About.mustache -->
-**IdleStyle** offers fully customizable screensavers with custom animation support. Custom animations can be used to display a range of things such as images and videos. If you want people to notice the fancy side of your desktop, this is a must-have!
+**IdleWebview** offers fully customizable screensavers with custom animation support. Custom animations can be used to display a range of things such as images and videos. If you want people to notice the fancy side of your desktop, this is a must-have!
 
 <!-- START Features.mustache -->
 
@@ -57,14 +57,14 @@ iwr -useb "https://raw.githubusercontent.com/Jax-Core/JaxCore/master/CoreInstall
 
 > Alternatively you can download it from the [website](https://jax-core.github.io/)
 
-After you've proceeded through the welcome screen, select `IdleStyle` (might have to scroll down) and click `Install`. It will appear in the library page after that.
+After you've proceeded through the welcome screen, select `IdleWebview` (might have to scroll down) and click `Install`. It will appear in the library page after that.
 <br />
 <br />
 <!-- END GetStarted.mustache -->
 <!-- START Setup.mustache -->
 
 ### Configuration
-Use the JaxCore menu to configure IdleStyle.
+Use the JaxCore menu to configure IdleWebview.
 For more information, visit [JaxCore's documentation](https://jaxcore.gitbook.io/core/)
 <br>
 <br><!-- END Setup.mustache -->
@@ -72,7 +72,7 @@ For more information, visit [JaxCore's documentation](https://jaxcore.gitbook.io
 
 ## Need assistance?
 * Join the [CoreCommunity Discord Server](https://discord.gg/JmgehPSDD6) for help
-* or [Create an issue](https://github.com/Jax-Core/IdleStyle)
+* or [Create an issue](https://github.com/Jax-Core/IdleWebview)
 
 ## Say Hi!
 * Follow me on 👨‍💻 [Github](https://github.com/EnhancedJax) and stay updated on new things that I make
