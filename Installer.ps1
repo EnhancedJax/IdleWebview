@@ -456,8 +456,8 @@ If (-not $wasRMInstalled) {
 & "$RMEXEloc" [!ActivateConfig $skin_load_path]
 Invoke-Item "$s_RMSkinFolder\$skin_name\"
 & "$s_RMSkinFolder\$skin_name\@Resources\Actions\AHKv1.exe" "$s_RMSkinFolder\$skin_name\@Resources\Actions\Source code\CoreShortcut.ahk" "$s_RMSkinFolder\$skin_name\Refresh.lnk" "$RMEXEloc" '[!Refresh IdleWebview\Main]' "$($ResourceFolder)Images\Config.ico"
-& "$s_RMSkinFolder\$skin_name\@Resources\Actions\AHKv1.exe" "$s_RMSkinFolder\$skin_name\@Resources\Actions\Source code\CoreShortcut.ahk" "$s_RMSkinFolder\$skin_name\Refresh.lnk" "$RMEXEloc" '[!Activateconfig IdleWebview\Main]' "$($ResourceFolder)Images\Config.ico"
-& "$s_RMSkinFolder\$skin_name\@Resources\Actions\AHKv1.exe" "$s_RMSkinFolder\$skin_name\@Resources\Actions\Source code\CoreShortcut.ahk" "$s_RMSkinFolder\$skin_name\Refresh.lnk" "$RMEXEloc" '[!Deactivateconfig IdleWebview\Main]' "$($ResourceFolder)Images\Config.ico"
+& "$s_RMSkinFolder\$skin_name\@Resources\Actions\AHKv1.exe" "$s_RMSkinFolder\$skin_name\@Resources\Actions\Source code\CoreShortcut.ahk" "$s_RMSkinFolder\$skin_name\Load.lnk" "$RMEXEloc" '[!Activateconfig IdleWebview\Main]' "$($ResourceFolder)Images\Config.ico"
+& "$s_RMSkinFolder\$skin_name\@Resources\Actions\AHKv1.exe" "$s_RMSkinFolder\$skin_name\@Resources\Actions\Source code\CoreShortcut.ahk" "$s_RMSkinFolder\$skin_name\Unload.lnk" "$RMEXEloc" '[!Deactivateconfig IdleWebview\Main]' "$($ResourceFolder)Images\Config.ico"
 
 Get-ChildItem "$s_root\*" | Remove-Item -Recurse -Force
 Exit
